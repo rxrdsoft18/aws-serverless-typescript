@@ -16,7 +16,8 @@
     ".serverless/**/*",
     ".webpack/**/*",
     "_warmup/**/*",
-    ".vscode/**/*"
+    ".vscode/**/*",
+    ".dynamodb/**/*"
   ],
   "ts-node": {
     "require": ["tsconfig-paths/register"]
