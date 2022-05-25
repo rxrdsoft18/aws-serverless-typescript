@@ -23,7 +23,8 @@ https://swapi.py4e.com/documentation
 
 | Resource / HTTP method | Get           | 
 | ---------------------- | ------------- | 
-| `dev/api/swapi/people` | List people    |        
+| `dev/api/swapi/people` | List people    |       
+
 `dev/api/swapi/people` acepta el parametro **lang**, especificado con el valor **en**, mapea los campos ingles, por defecto es en español.
 
 ```bash
@@ -35,6 +36,7 @@ http://localhost:3000/dev/api/swapi/people?lang=en
 | Resource / HTTP method | Get           | 
 | ---------------------- | ------------- | 
 | `dev/api/swapi/films` | List films    |        
+
 `dev/api/swapi/films` acepta el parametro **lang**, especificado con el valor **en**, mapea los campos ingles, por defecto es en español.
 
 ```bash
