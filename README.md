@@ -84,13 +84,15 @@ serverless offline start
 serverless deploy
 ```
 
-## Ejecutando las pruebas ⚙️
+[comment]: <> (## Ejecutando las pruebas ⚙️)
 
-Se realizo pruebas para validar el estado de los endpoints,para ejecutar las pruebas debemos ejecutar :
+[comment]: <> (Se realizo pruebas para validar el estado de los endpoints,para ejecutar las pruebas debemos ejecutar :)
 
-```
-npm test
-```
+[comment]: <> (```)
+
+[comment]: <> (npm test)
+
+[comment]: <> (```)
 
 
 ### Estructura del proyecto
