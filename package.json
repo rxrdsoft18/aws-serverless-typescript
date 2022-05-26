@@ -4,7 +4,7 @@
   "description": "Serverless aws-nodejs-typescript",
   "main": "serverless.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config=jest.config.test.js"
   },
   "engines": {
     "node": ">=14.15.0"
@@ -16,15 +16,22 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
     "@serverless/typescript": "^3.0.0",
     "@types/aws-lambda": "^8.10.71",
+    "@types/jest": "^27.5.1",
     "@types/node": "^14.14.25",
+    "babel-jest": "^28.1.0",
     "esbuild": "^0.14.11",
+    "jest": "^28.1.0",
     "json-schema-to-ts": "^1.5.0",
     "serverless": "^3.0.0",
     "serverless-dynamodb-local": "^0.2.40",
     "serverless-esbuild": "^1.23.3",
     "serverless-offline": "^8.8.0",
+    "supertest": "^6.2.3",
     "ts-node": "^10.4.0",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.1.3"

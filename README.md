@@ -84,15 +84,15 @@ serverless offline start
 serverless deploy
 ```
 
-[comment]: <> (## Ejecutando las pruebas ⚙️)
+## Ejecutando las pruebas ⚙️
 
-[comment]: <> (Se realizo pruebas para validar el estado de los endpoints,para ejecutar las pruebas debemos ejecutar :)
+Se realizo pruebas para validar el estado de las apis, ejecutar las pruebas con el siguiente comando :
 
-[comment]: <> (```)
+```
 
-[comment]: <> (npm test)
+yarn run test
 
-[comment]: <> (```)
+```
 
 
 ### Estructura del proyecto
@@ -143,3 +143,6 @@ El código base del proyecto se encuentra principalmente dentro de la carpeta `s
 - [json-schema-to-ts](https://github.com/ThomasAribart/json-schema-to-ts) - uses JSON-Schema definitions used by API Gateway for HTTP request validation to statically generate TypeScript types in your lambda's handler code base
 - [middy](https://github.com/middyjs/middy) - middleware engine for Node.Js lambda. This template uses [http-json-body-parser](https://github.com/middyjs/middy/tree/master/packages/http-json-body-parser) to convert API Gateway `event.body` property, originally passed as a stringified JSON, to its corresponding parsed object
 - [@serverless/typescript](https://github.com/serverless/typescript) - provides up-to-date TypeScript definitions for your `serverless.ts` service file
+- [jest](https://github.com/facebook/jest) - Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!
+- [SuperTest
+](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API.
